@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TypingBruh</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+</head>
+<body>
+<div class="navbar">
+    <ul>
+        <li class="nav-option" data-option="direct">Paragraph</li>
+    </ul>
+    <ul>
+        <li class="nav-option" data-option="random">Words</li>
+    </ul>
+    <ul>
+    <button id="mode-switch">Switch Mode</button>
+    </ul>
+</div>
+<div class="wrapper">
+    <input type="text" class="input-field">
+    <div class="content-box">
+        <div class="content">
+            <ul class="result-details">
+                <li class="time">
+                    <p>
+                        Time Left:
+                    </p>
+                    <span><b>60</b>s</span>
+                </li>
+                <li class="wpm">
+                    <p>
+                        WPM:
+                    </p>
+                    <span>0</span>
+                </li>
+                <li class="mistake">
+                    <p>
+                        Mistakes:
+                    </p>
+                    <span>0</span>
+                </li>
+
+                <li class="cpm">
+                    <p>
+                        CPM:
+                    </p>
+                    <span>0</span>
+                </li>
+            </ul>
+
+        </div>
+        <div class="typing-text">
+            <p id="paragraph"></p>
+            <button>Try Again</button>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
